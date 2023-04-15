@@ -25,4 +25,10 @@ public class Counter implements Serializable {
         count = 0;
         System.out.println("Счетчик обнулился");
     }
+
+    public void getInfo() {
+        System.out.println("/inc - увеличить значение счетчика на единицу");
+        System.out.println("/stop - завершить работу приложения");
+        System.out.println("/reset - обнулить счетчик");
+    }
 }
